@@ -1,0 +1,12 @@
+# Copy to terraform.tfvars and fill with your real values.
+# terraform.tfvars is git-ignored — never commit real emails/account IDs.
+
+region      = "eu-central-1"
+aws_profile = "training"
+alert_email = "you@example.com"
+
+# Optional overrides:
+# name_prefix           = "clickstream"
+# event_retention_hours = 24
+# redshift_base_rpu     = 8
+# redshift_max_rpu      = 32

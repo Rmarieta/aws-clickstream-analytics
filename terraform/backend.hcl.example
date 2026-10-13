@@ -1,0 +1,7 @@
+# Backend config template — SAFE to commit.
+# Copy to backend.hcl and fill in your own values:
+#   cp backend.hcl.example backend.hcl
+# Then: terraform init -backend-config=backend.hcl -migrate-state
+#
+# The bucket must already exist (see the "Remote State" section of the README).
+bucket = "<your-tfstate-bucket-name>"
